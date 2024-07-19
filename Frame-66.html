@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame-66</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="dist/css/style.css" rel="stylesheet">
+</head>
+
+<body class="text-white">
+
+    <!-- Navigation -->
+    <header id="header" class="p-6 bg-black fixed-top">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Logo</div>
+            <nav class="hidden md:flex space-x-6 desktop-menu items-center">
+                <a href="Frame-66.html">Accueil</a>
+                <a href="Gallery.html">Partenaires</a>
+                <a href="Poste-blog.html">Boutique</a>
+                <div class="dropdown inline-block relative">
+                    <a href="#" class="flex items-center">Apprendre <i class="fas fa-chevron-down ml-1"
+                            style="margin-top: 4px;"></i></a>
+                    <div class="dropdown-content absolute bg-gray-800 text-white mt-2 rounded shadow-lg">
+                        <a href="Pricing.html" class="block px-4 py-2 hover:bg-gray-700">Cours</a>
+                        <a href="Réseautage.html" class="block px-4 py-2 hover:bg-gray-700">Webinaires</a>
+                        <a href="Ressources.html" class="block px-4 py-2 hover:bg-gray-700">Ressources</a>
+                        <a href="Support.html" class="block px-4 py-2 hover:bg-gray-700">Support</a>
+                        <a href="Testimonials.html" class="block px-4 py-2 hover:bg-gray-700">Témoignages</a>
+                    </div>
+                </div>
+                <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded">Bouton</button>
+                <button class="bg-yellow-500 text-black px-4 py-2 rounded">Bouton</button>
+            </nav>
+            <button id="burger-button" class="block md:hidden mobile-menu-button focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <nav id="mobile-nav" class="mobile-menu hidden md:hidden flex flex-col space-y-4 mt-4 px-6">
+            <a href="Frame-66.html">Accueil</a>
+            <a href="Gallery.html">Partenaires</a>
+            <a href="Poste-blog.html">Boutique</a>
+            <div class="dropdown inline-block relative">
+                <a href="#" class="flex items-center">Apprendre <i class="fas fa-chevron-down ml-1"
+                        style="margin-top: 4px;"></i></a>
+                <div class="dropdown-content bg-gray-800 text-white mt-2 rounded shadow-lg">
+                    <a href="Pricing.html" class="block px-4 py-2 hover:bg-gray-700">Cours</a>
+                    <a href="Réseautage.html" class="block px-4 py-2 hover:bg-gray-700">Webinaires</a>
+                    <a href="Ressources.html" class="block px-4 py-2 hover:bg-gray-700">Ressources</a>
+                    <a href="Support.html" class="block px-4 py-2 hover:bg-gray-700">Support</a>
+                    <a href="Testimonials.html" class="block px-4 py-2 hover:bg-gray-700">Témoignages</a>
+                </div>
+            </div>
+            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded">Bouton</button>
+            <button class="bg-yellow-500 text-black px-4 py-2 rounded">Bouton</button>
+        </nav>
+    </header>
+
+    <!-- Section d'écoute -->
+    <section class="bg-white p-6 py-20 text-black help-head">
+        <div class="container mx-auto">
+            <div class="mb-4">
+                <h1 class="text-4xl font-bold mb-4">Trouvez votre carrière</h1>
+                <p class="mb-8">Libérez votre potentiel et rejoignez une communauté dédiée à votre réussite.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opportunités actuelles Section -->
+    <section class="p-6 py-20 bg-black text-white">
+        <div class="container mx-auto flex flex-col md:flex-row md:justify-between md:items-start">
+            <div class="w-full md:max-w-md">
+                <h3 class="text-sm font-bold mb-2">Rejoindre</h3>
+                <h2 class="text-4xl font-bold mb-4">Opportunités actuelles</h2>
+                <p class="mb-8">Explorez notre liste complète d'offres d'emploi et trouvez la solution idéale pour vous.
+                </p>
+            </div>
+            <div class="w-full md:max-w-2xl">
+                <div class="mb-6 border-b-2 border-b-white-500 pb-4">
+                    <h3 class="text-2xl font-bold mb-4">Département</h3>
+                    <div class="border border-gray-300 rounded-lg p-4 mb-4">
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-xl font-bold">Titre d'emploi</h4>
+                            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded-lg">Appliquer
+                                maintenant</button>
+                        </div>
+                        <p class="text-sm text-gray-600 mb-2">Emplacement</p>
+                        <p class="text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+                            ligula vitae nisl consequat efficitur.</p>
+                    </div>
+                    <div class="border border-gray-300 rounded-lg p-4 mb-4">
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-xl font-bold">Titre d'emploi</h4>
+                            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded-lg">Appliquer
+                                maintenant</button>
+                        </div>
+                        <p class="text-sm text-gray-600 mb-2">Emplacement</p>
+                        <p class="text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+                            ligula vitae nisl consequat efficitur.</p>
+                    </div>
+                    <div class="border border-gray-300 rounded-lg p-4 mb-4">
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-xl font-bold">Titre d'emploi</h4>
+                            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded-lg">Appliquer
+                                maintenant</button>
+                        </div>
+                        <p class="text-sm text-gray-600 mb-2">Emplacement</p>
+                        <p class="text-sm mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae
+                            ligula vitae nisl consequat efficitur.</p>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold mb-4 border-b-2 border-b-white-500 pb-4">Département de l'emploi</h3>
+                    <!-- Repeat job listings as necessary -->
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold mb-4 border-b-2 border-b-white-500 pb-4">Département de l'emploi</h3>
+                    <!-- Repeat job listings as necessary -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="p-6 py-20 bg-white text-black flex justify-start">
+        <div class="max-w-md w-full">
+            <h2 class="text-4xl font-bold mb-4">Contactez-nous</h2>
+            <p class="mb-8">Remplissez le formulaire ci-dessous pour postuler aux emplois répertoriés</p>
+            <form class="space-y-6">
+                <div>
+                    <label for="nom" class="block text-sm font-medium">Nom</label>
+                    <input type="text" id="nom" name="nom"
+                        class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm text-black">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm text-black">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium">Message</label>
+                    <textarea id="message" name="message" rows="8"
+                        class="mt-1 pt-3 block w-full px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm text-black"
+                        placeholder="Entrez votre message..."></textarea>
+                </div>
+                <div class="flex items-center">
+                    <input id="conditions" name="conditions" type="checkbox"
+                        class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300 rounded">
+                    <label for="conditions-b" class="ml-2 block text-sm">J’accepte les conditions</label>
+                </div>
+                <div class="flex justify-start">
+                    <button type="submit" class="bg-yellow-500 text-black px-6 py-2 rounded-lg">Soumettre</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Libérez votre potentiel, Section -->
+    <section class="p-6 py-20 bg-black text-white flex flex-col md:flex-row items-center">
+        <div class="container mx-auto flex flex-col md:flex-row md:items-center">
+            <div class="md:w-1/2 md:pr-8">
+                <h2 class="text-4xl font-bold mb-4">Libérez votre potentiel et prospérez avec Fortune : profitez
+                    d'avantages et d'avantages exclusifs</h2>
+                <p class="mb-8">Chez Fortune, nous croyons en la création d'un environnement où les employés peuvent
+                    grandir, apprendre et réussir. Rejoignez notre équipe et profitez de salaires compétitifs,
+                    d'horaires de travail flexibles, d'avantages sociaux complets et de possibilités d'avancement de
+                    carrière.</p>
+            </div>
+            <div class="md:w-1/2">
+                <img src="img/placeholderimg.png" alt="Image illustrative"
+                    class="w-full h-auto object-cover rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="p-6 py-20 bg-white text-black">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-5xl font-bold mb-6">FAQs</h2>
+                <p class="mb-12">Trouvez les réponses aux questions fréquemment posées sur le processus de candidature,
+                    la culture d'entreprise et les opportunités de développement de carrière.</p>
+                <button class="border border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg">Contact</button>
+            </div>
+            <div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Comment puis-je postuler ?</h3>
+                    <p>Pour postuler à un emploi chez Fortune, veuillez visiter notre page Carrières et suivre les
+                        instructions fournies. Vous devrez soumettre votre curriculum vitae et remplir le formulaire de
+                        candidature en ligne.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Quelle est la culture de l'entreprise ?</h3>
+                    <p>Chez Fortune, nous favorisons une culture de collaboration, d'innovation et d'apprentissage
+                        continu. Nous valorisons la diversité et l'inclusion et nous nous efforçons de créer un
+                        environnement de travail solidaire et inclusif pour tous les employés.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Existe-t-il des opportunités d'évolution de carrière ?</h3>
+                    <p>Oui, Fortune s'engage envers la croissance et le développement professionnels de ses employés.
+                        Nous proposons divers programmes de formation, opportunités de mentorat et parcours d'avancement
+                        de carrière pour aider nos employés à atteindre leur plein potentiel.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Comment puis-je contacter le service RH ?</h3>
+                    <p>Pour contacter le service RH de Fortune, veuillez utiliser le formulaire de contact sur notre
+                        site Web ou envoyer un e-mail à hr@fortune.com. Notre équipe RH répondra à votre demande dans
+                        les plus brefs délais.</p>
+                </div>
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold mb-2">Comment se déroule le processus d'entretien ?</h3>
+                    <p>Le processus d'entretien chez Fortune peut varier en fonction du poste pour lequel vous postulez.
+                        Généralement, cela implique plusieurs séries d'entretiens, qui peuvent inclure des sélections
+                        téléphoniques, des entretiens en personne et des évaluations pour évaluer vos compétences et
+                        votre aptitude au poste.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignage Section -->
+    <section class="pl-6 pr-6 md:pl-60 md:pr-60 py-20 bg-black text-white">
+        <div class="container mx-auto text-center">
+            <div class="mb-4">
+                <img src="img/Webflow.png" alt="Webflow Logo" class="mx-auto w-24">
+            </div>
+            <p class="text-2xl font-semibold mb-8">Travailler chez Fortune a été une expérience incroyable.
+                L'environnement solidaire et collaboratif m'a permis de m'épanouir tant personnellement que
+                professionnellement.</p>
+            <div class="flex flex-col items-center">
+                <img class="w-12 h-12 rounded-full mb-4" src="img/placeholderimg.png" alt="John Doe">
+                <p class="font-bold">John Doe</p>
+                <p class="text-gray-400">Développeur principal, XYZ Corp</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rejoignez notre équipe Section -->
+    <section class="p-6 py-20 bg-white text-black">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="mb-8 md:mb-0 md:max-w-lg">
+                <h2 class="text-4xl font-bold mb-4">Rejoignez notre équipe et prospérez</h2>
+            </div>
+            <div class="md:max-w-md">
+                <p class="mb-8">Êtes-vous à la recherche d'une opportunité de carrière passionnante? Nous recrutons
+                    actuellement des personnes talentueuses et passionnées par l'idée de faire une différence.
+                    Rejoignez-nous et faites partie d'une équipe dynamique qui façonne l'avenir.</p>
+                <div class="flex space-x-4">
+                    <button class="bg-yellow-500 text-black px-6 py-2 rounded-lg">Appliquer</button>
+                    <button class="border border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg">Contact</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                <div class="mb-6 md:mb-0">
+                    <h4 class="text-xl font-bold">Restez informé, abonnez-vous</h4>
+                    <p>Recevez les dernières mises à jour et offres exclusives</p>
+                </div>
+                <div class="newsletter-container mt-4 md:mt-0 md:ml-auto">
+                    <form>
+                        <input type="email" placeholder="Entrez votre Email"
+                            class="px-4 py-2 rounded-lg text-black mb-4 md:mb-0 md:mr-4 w-full md:w-auto">
+                        <button type="submit"
+                            class="bg-yellow-500 text-black px-6 py-2 rounded-lg w-full md:w-auto">Rejoindre</button>
+                    </form>
+                    <p class="newp text-center md:text-left w-full md:w-auto">En vous abonnant, vous acceptez notre
+                        <a href="#" class="text-yellow-500">politique de confidentialité</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-6 mb-12">
+                <div>
+                    <h4 class="text-2xl font-bold mb-4">Logo</h4>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Première colonne</h4>
+                    <a href="#" class="block">À propos de nous</a>
+                    <a href="#" class="block">Contact Us</a>
+                    <a href="#" class="block">FAQs</a>
+                    <a href="#" class="block">Support</a>
+                    <a href="#" class="block">Termes</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne deux</h4>
+                    <a href="#" class="block">Boutique</a>
+                    <a href="#" class="block">Des produits</a>
+                    <a href="#" class="block">Catégories</a>
+                    <a href="#" class="block">Panier</a>
+                    <a href="#" class="block">Mon compte</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne trois</h4>
+                    <a href="#" class="block">Entraînement</a>
+                    <a href="#" class="block">Cours</a>
+                    <a href="#" class="block">Webinaires</a>
+                    <a href="#" class="block">Formateurs</a>
+                    <a href="#" class="block">Ressources</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne quatre</h4>
+                    <a href="#" class="block">Mentorat</a>
+                    <a href="#" class="block">Conseil</a>
+                    <a href="#" class="block">Programmes</a>
+                    <a href="#" class="block">Ressources</a>
+                    <a href="#" class="block">Réussites</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne cinq</h4>
+                    <a href="#" class="block">Blog</a>
+                    <a href="#" class="block">Nouvelles</a>
+                    <a href="#" class="block">Mises à jour</a>
+                    <a href="#" class="block">Événements</a>
+                    <a href="#" class="block">Ateliers</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-sm mb-4 md:mb-0">
+                    © 2024 Fortune. Tous droits réservés. <a href="#" class="footutls hover:underline">Politique de
+                        confidentialité</a> <a href="#" class="footutls hover:underline">Conditions
+                        d'utilisation</a> <a href="#" class="footutls hover:underline">Politique de cookies</a>
+                </div>
+                <div>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

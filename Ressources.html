@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réseautage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="dist/css/style.css" rel="stylesheet">
+</head>
+
+<body class="text-white">
+
+    <!-- Navigation -->
+    <header id="header" class="p-6 bg-black fixed-top">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">
+                <img src="img/fortune-logo.png" alt="" class="w-12 h-auto">
+            </div>
+            <nav class="hidden md:flex space-x-6 desktop-menu items-center">
+                <a href="Frame-66.html">Accueil</a>
+                <a href="Gallery.html">Partenaires</a>
+                <a href="Poste-blog.html">Boutique</a>
+                <div class="dropdown inline-block relative">
+                    <a href="#" class="flex items-center">Apprendre <i class="fas fa-chevron-down ml-1"
+                            style="margin-top: 4px;"></i></a>
+                    <div class="dropdown-content absolute bg-gray-800 text-white mt-2 rounded shadow-lg">
+                        <a href="Pricing.html" class="block px-4 py-2 hover:bg-gray-700">Cours</a>
+                        <a href="Réseautage.html" class="block px-4 py-2 hover:bg-gray-700">Webinaires</a>
+                        <a href="Ressources.html" class="block px-4 py-2 hover:bg-gray-700">Ressources</a>
+                        <a href="Support.html" class="block px-4 py-2 hover:bg-gray-700">Support</a>
+                        <a href="Testimonials.html" class="block px-4 py-2 hover:bg-gray-700">Témoignages</a>
+                    </div>
+                </div>
+                <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded">Bouton</button>
+                <button class="bg-yellow-500 text-black px-4 py-2 rounded">Bouton</button>
+            </nav>
+            <button id="burger-button" class="block md:hidden mobile-menu-button focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <nav id="mobile-nav" class="mobile-menu hidden md:hidden flex flex-col space-y-4 mt-4 px-6">
+            <a href="Frame-66.html">Accueil</a>
+            <a href="Gallery.html">Partenaires</a>
+            <a href="Poste-blog.html">Boutique</a>
+            <div class="dropdown inline-block relative">
+                <a href="#" class="flex items-center">Apprendre <i class="fas fa-chevron-down ml-1"
+                        style="margin-top: 4px;"></i></a>
+                <div class="dropdown-content bg-gray-800 text-white mt-2 rounded shadow-lg">
+                    <a href="Pricing.html" class="block px-4 py-2 hover:bg-gray-700">Cours</a>
+                    <a href="Réseautage.html" class="block px-4 py-2 hover:bg-gray-700">Webinaires</a>
+                    <a href="Ressources.html" class="block px-4 py-2 hover:bg-gray-700">Ressources</a>
+                    <a href="Support.html" class="block px-4 py-2 hover:bg-gray-700">Support</a>
+                    <a href="Testimonials.html" class="block px-4 py-2 hover:bg-gray-700">Témoignages</a>
+                </div>
+            </div>
+            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded">Bouton</button>
+            <button class="bg-yellow-500 text-black px-4 py-2 rounded">Bouton</button>
+        </nav>
+    </header>
+
+    <!-- Section de libération de potentiel -->
+    <section class="p-6 py-20 text-white help-head"
+        style="background-image: url('img/alphaB.jpg'); background-size: cover; background-position: center;">
+        <div class="container mx-auto">
+            <div class="mb-4">
+                <h1 class="text-4xl font-bold mb-4">Libérez votre potentiel</h1>
+                <p class="mb-8">Explorez une multitude de ressources pour améliorer vos connaissances et vos
+                    compétences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="p-6 py-20 bg-black text-white">
+        <div class="container mx-auto text-left">
+            <p class="text-lg font-bold mb-2">Blog</p>
+            <h2 class="text-4xl font-bold mb-4">Le titre court va ici</h2>
+            <p class="text-lg mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <div class="text-white overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Blog Post 1" class="w-full h-48 object-cover">
+                    <div class="pt-4">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Catégorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Le titre du blog sera placé ici</h3>
+                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                            in eros.</p>
+                        <a href="#" class="flex items-center text-yellow-500">
+                            Apprendre plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Blog Post 2 -->
+                <div class="text-white overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Blog Post 1" class="w-full h-48 object-cover">
+                    <div class="pt-4">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Catégorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Le titre du blog sera placé ici</h3>
+                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                            in eros.</p>
+                        <a href="#" class="flex items-center text-yellow-500">
+                            Apprendre plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Blog Post 3 -->
+                <div class="text-white overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Blog Post 1" class="w-full h-48 object-cover">
+                    <div class="pt-4">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Catégorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Le titre du blog sera placé ici</h3>
+                        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                            in eros.</p>
+                        <a href="#" class="flex items-center text-yellow-500">
+                            Apprendre plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-right mt-8">
+                <button class="border border-yellow-500 text-white-500 px-6 py-2 rounded-lg">View all</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des ressources précieuses -->
+    <section class="p-6 py-20 bg-white text-black">
+        <div class="container mx-auto">
+            <div class="text-left mb-8">
+                <p class="text-lg font-bold mb-2">Articles</p>
+                <h2 class="text-4xl font-bold mb-4">Découvrez des ressources précieuses ici</h2>
+                <p class="text-lg">Explorez nos ressources vedettes pour obtenir des informations précieuses.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div>
+                    <img src="img/placeholderimg.png" alt="Ressource 1" class="w-full h-auto object-cover">
+                </div>
+                <div class="flex flex-col justify-center">
+                    <div class="mb-4">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Categorie</span>
+                            <span class="text-xs ml-2">5 minutes de lecture</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Libérer votre potentiel entrepreneurial</h3>
+                        <p class="mb-4">Découvrez les stratégies clés pour libérer votre potentiel entrepreneurial.</p>
+                        <a href="#" class="flex items-center">
+                            En savoir plus
+                            <i class="fas fa-chevron-right ml-2 text-yellow-500"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section des ressources précieuses -->
+    <section class="p-6 py-20 bg-white text-black -mt-10">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap justify-start mb-4 space-x-2">
+                <button class="px-4 py-2 border border-gray-500 text-gray-700 rounded-lg mb-2">View all</button>
+                <button class="px-4 py-2 text-gray-700 mb-2">Business</button>
+                <button class="px-4 py-2 text-gray-700 mb-2">Finance</button>
+                <button class="px-4 py-2 text-gray-700 mb-2">Marketing</button>
+                <button class="px-4 py-2 text-gray-700 mb-2">Technology</button>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Ressource 1 -->
+                <div class="pt-4 overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Ressource 1" class="w-full h-auto object-cover mb-4">
+                    <div class="text-left">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Categorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Maîtriser les stratégies de marketing numérique</h3>
+                        <p class="mb-2">Apprenez à promouvoir efficacement votre entreprise à l'ère du numérique.</p>
+                        <a href="#" class="flex items-center">
+                            En savoir plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Ressource 2 -->
+                <div class="pt-4 overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Ressource 2" class="w-full h-auto object-cover mb-4">
+                    <div class="text-left">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Categorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Construire une marque personnelle forte</h3>
+                        <p class="mb-2">Découvrez les secrets pour créer une marque personnelle puissante qui se
+                            démarque.</p>
+                        <a href="#" class="flex items-center">
+                            En savoir plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Ressource 3 -->
+                <div class="pt-4 overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Ressource 3" class="w-full h-auto object-cover mb-4">
+                    <div class="text-left">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Categorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Naviguer dans les options de financement de démarrage</h3>
+                        <p class="mb-2">Découvrez les différentes options de financement disponibles pour votre startup.
+                        </p>
+                        <a href="#" class="flex items-center">
+                            En savoir plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Ressource 4 -->
+                <div class="pt-4 overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Ressource 4" class="w-full h-auto object-cover mb-4">
+                    <div class="text-left">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Categorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Stratégies efficaces de gestion du temps</h3>
+                        <p class="mb-2">Découvrez des techniques de gestion du temps pour augmenter la productivité et
+                            réussir.</p>
+                        <a href="#" class="flex items-center">
+                            En savoir plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Ressource 5 -->
+                <div class="pt-4 overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Ressource 5" class="w-full h-auto object-cover mb-4">
+                    <div class="text-left">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Categorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">La puissance du réseautage</h3>
+                        <p class="mb-2">Apprenez à établir des liens significatifs et à tirer parti de votre réseau pour
+                            réussir.</p>
+                        <a href="#" class="flex items-center">
+                            En savoir plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Ressource 6 -->
+                <div class="pt-4 overflow-hidden">
+                    <img src="img/placeholderimg.png" alt="Ressource 6" class="w-full h-auto object-cover mb-4">
+                    <div class="text-left">
+                        <div class="flex items-center mb-2">
+                            <span class="bg-yellow-500 text-black px-2 py-1 text-xs font-bold">Categorie</span>
+                            <span class="text-xs ml-2">5 min de lecture</span>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">L'art de la négociation</h3>
+                        <p class="mb-2">Découvrez des techniques de négociation efficaces pour obtenir des résultats
+                            gagnant-gagnant.</p>
+                        <a href="#" class="flex items-center">
+                            En savoir plus
+                            <i class="fas fa-chevron-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section avec image et texte -->
+    <section class="p-6 py-20 bg-black text-white">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 mb-8 lg:mb-0">
+                <h2 class="text-3xl font-bold mb-4">Libérez votre potentiel grâce à nos ressources complètes pour la
+                    formation, l'orientation et l'entrepreneuriat</h2>
+                <p class="text-lg mb-4">Notre plateforme propose une large gamme de ressources, notamment des cours en
+                    ligne, des guides, des vidéos et bien plus encore, conçues pour vous aider dans votre parcours
+                    entrepreneurial. Que vous soyez un entrepreneur débutant ou expérimenté, nos ressources fournissent
+                    des informations précieuses et des connaissances pratiques pour vous aider à réussir.</p>
+            </div>
+            <div class="lg:w-1/2 flex justify-center lg:justify-end">
+                <img src="img/placeholderimg.png" alt="Image de Ressource" class="w-full h-auto lg:max-w-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section FAQs -->
+    <section class="p-6 py-20 bg-white text-black">
+        <div class="container mx-auto flex flex-col md:flex-row md:justify-between md:items-start">
+            <div class="w-full md:max-w-md">
+                <h2 class="text-5xl font-bold mb-12">FAQs</h2>
+                <p class="mb-12">Trouvez des réponses aux questions courantes sur Fortune, sa mission et comment vous
+                    impliquer.</p>
+                <button class="border border-yellow-500 mb-4 text-yellow-500 px-6 py-2 rounded-lg">Contact</button>
+            </div>
+            <div class="w-full md:max-w-2xl">
+                <div class="mb-6">
+                    <!-- FAQ Item -->
+                    <div class="faq-item">
+                        <div class="faq-accordion-button" onclick="toggleFaqAccordion(this)">
+                            Quelle est la mission de Fortune ?
+                            <span class="faq-accordion-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-accordion-content">
+                            <p>La mission de Fortune est de fournir des informations précieuses et de soutenir
+                                l'entrepreneuriat à travers une gamme de services et de ressources.</p>
+                        </div>
+                    </div>
+                    <!-- FAQ Item -->
+                    <div class="faq-item">
+                        <div class="faq-accordion-button" onclick="toggleFaqAccordion(this)">
+                            Comment puis-je rejoindre Fortune ?
+                            <span class="faq-accordion-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-accordion-content">
+                            <p>Vous pouvez rejoindre Fortune en vous inscrivant sur notre site web et en participant à
+                                nos événements et programmes.</p>
+                        </div>
+                    </div>
+                    <!-- FAQ Item -->
+                    <div class="faq-item">
+                        <div class="faq-accordion-button" onclick="toggleFaqAccordion(this)">
+                            Quels services propose Fortune ?
+                            <span class="faq-accordion-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-accordion-content">
+                            <p>Fortune propose une variété de services, y compris des ateliers de formation, des
+                                conseils en entrepreneuriat, et des ressources en ligne.</p>
+                        </div>
+                    </div>
+                    <!-- FAQ Item -->
+                    <div class="faq-item">
+                        <div class="faq-accordion-button" onclick="toggleFaqAccordion(this)">
+                            Comment puis-je contacter Fortune ?
+                            <span class="faq-accordion-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-accordion-content">
+                            <p>Vous pouvez nous contacter via notre formulaire de contact sur le site web ou en envoyant
+                                un email à info@fortune.com.</p>
+                        </div>
+                    </div>
+                    <!-- FAQ Item -->
+                    <div class="faq-item">
+                        <div class="faq-accordion-button" onclick="toggleFaqAccordion(this)">
+                            Où puis-je trouver des ressources ?
+                            <span class="faq-accordion-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-accordion-content">
+                            <p>Vous pouvez trouver des ressources supplémentaires sur notre site web dans la section
+                                dédiée aux ressources ou en vous abonnant à notre newsletter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Débloquer pour réussir Section -->
+    <section class="bg-black p-6 py-20">
+        <div class="container mx-auto flex flex-col md:flex-row md:justify-between md:items-center">
+            <div class="mb-6 md:mb-0 max-w-2xl">
+                <h2 class="text-5xl font-bold mb-4">Débloquez des ressources exclusives pour réussir</h2>
+                <p class="text-lg">Gardez une longueur d'avance avec nos dernières ressources et mises à jour</p>
+            </div>
+            <div class="flex">
+                <button class="bg-yellow-500 text-black px-6 py-2 rounded-lg mr-4">S'inscrire</button>
+                <button class="border border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg">Apprendre encore
+                    plus</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section de contact -->
+    <section class="p-6 py-20 bg-white text-black flex justify-left">
+        <div class="max-w-3xl w-full">
+            <h3 class="text-sm font-bold mb-2 text-left">Connect</h3>
+            <h2 class="text-4xl font-bold mb-4 text-left">Entrer en contact</h2>
+            <p class="mb-8 text-left">Vous avez une demande spécifique ou besoin de ressources supplémentaires ?</p>
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="prenom" class="block text-sm font-medium text-gray-700">Prénom</label>
+                        <input type="text" id="prenom" name="prenom"
+                            class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                    </div>
+                    <div>
+                        <label for="nom" class="block text-sm font-medium text-gray-700">Nom de famille</label>
+                        <input type="text" id="nom" name="nom"
+                            class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                    </div>
+                    <div>
+                        <label for="telephone" class="block text-sm font-medium text-gray-700">Numéro de
+                            téléphone</label>
+                        <input type="tel" id="telephone" name="telephone"
+                            class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label for="sujet" class="block text-sm font-medium text-gray-700">Choisir un sujet</label>
+                    <select id="sujet" name="sujet"
+                        class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                        <option>Sélectionnez-en un...</option>
+                        <option>Sujet 1</option>
+                        <option>Sujet 2</option>
+                        <option>Sujet 3</option>
+                    </select>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend class="block text-sm font-medium text-gray-700 mb-2">Lequel vous décrit le mieux?
+                        </legend>
+                        <div class="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4">
+                            <div class="flex items-center">
+                                <input id="entrepreneur" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="entrepreneur"
+                                    class="ml-3 block text-sm font-medium text-gray-700">Entrepreneur</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="pme" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="pme" class="ml-3 block text-sm font-medium text-gray-700">Patron de
+                                    PME</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="freelancer" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="freelancer"
+                                    class="ml-3 block text-sm font-medium text-gray-700">Freelancer</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="etudiant" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="etudiant"
+                                    class="ml-3 block text-sm font-medium text-gray-700">Étudiant</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="autre1" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="autre1" class="ml-3 block text-sm font-medium text-gray-700">Autre</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="autre2" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="autre2" class="ml-3 block text-sm font-medium text-gray-700">Autre</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="8"
+                        class="mt-1 pt-3 block w-full px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
+                        placeholder="Tapez votre message..."></textarea>
+                </div>
+                <div class="flex items-center">
+                    <input id="conditions" name="conditions" type="checkbox"
+                        class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300 rounded">
+                    <label for="conditions" class="ml-2 block text-sm text-gray-900">J'accepte les conditions</label>
+                </div>
+                <div class="flex">
+                    <button type="submit" class="bg-yellow-500 text-black px-6 py-2 rounded-lg">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                <div class="mb-6 md:mb-0">
+                    <h4 class="text-xl font-bold">Restez informé, abonnez-vous</h4>
+                    <p>Recevez les dernières mises à jour et offres exclusives</p>
+                </div>
+                <div class="newsletter-container mt-4 md:mt-0 md:ml-auto">
+                    <form>
+                        <input type="email" placeholder="Entrez votre Email"
+                            class="px-4 py-2 rounded-lg text-black mb-4 md:mb-0 md:mr-4 w-full md:w-auto">
+                        <button type="submit"
+                            class="bg-yellow-500 text-black px-6 py-2 rounded-lg w-full md:w-auto">Rejoindre</button>
+                    </form>
+                    <p class="newp text-center md:text-left w-full md:w-auto">En vous abonnant, vous acceptez notre
+                        <a href="#" class="text-yellow-500">politique de confidentialité</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-6 mb-12">
+                <div>
+                    <h4 class="text-2xl font-bold mb-4"><img src="img/fortune-logo.png" alt="" class="w-16 h-auto"></h4>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Première colonne</h4>
+                    <a href="#" class="block">À propos de nous</a>
+                    <a href="#" class="block">Contact Us</a>
+                    <a href="#" class="block">FAQs</a>
+                    <a href="#" class="block">Support</a>
+                    <a href="#" class="block">Termes</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne deux</h4>
+                    <a href="#" class="block">Boutique</a>
+                    <a href="#" class="block">Des produits</a>
+                    <a href="#" class="block">Catégories</a>
+                    <a href="#" class="block">Panier</a>
+                    <a href="#" class="block">Mon compte</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne trois</h4>
+                    <a href="#" class="block">Entraînement</a>
+                    <a href="#" class="block">Cours</a>
+                    <a href="#" class="block">Webinaires</a>
+                    <a href="#" class="block">Formateurs</a>
+                    <a href="#" class="block">Ressources</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne quatre</h4>
+                    <a href="#" class="block">Mentorat</a>
+                    <a href="#" class="block">Conseil</a>
+                    <a href="#" class="block">Programmes</a>
+                    <a href="#" class="block">Ressources</a>
+                    <a href="#" class="block">Réussites</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne cinq</h4>
+                    <a href="#" class="block">Blog</a>
+                    <a href="#" class="block">Nouvelles</a>
+                    <a href="#" class="block">Mises à jour</a>
+                    <a href="#" class="block">Événements</a>
+                    <a href="#" class="block">Ateliers</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-sm mb-4 md:mb-0">
+                    © 2024 Fortune. Tous droits réservés. <a href="#" class="footutls hover:underline">Politique de
+                        confidentialité</a> <a href="#" class="footutls hover:underline">Conditions
+                        d'utilisation</a> <a href="#" class="footutls hover:underline">Politique de cookies</a>
+                </div>
+                <div>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/special-faq.js"></script>
+</body>
+
+</html>

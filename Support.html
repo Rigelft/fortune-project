@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="dist/css/style.css" rel="stylesheet">
+</head>
+
+<body class="text-white">
+
+    <!-- Navigation -->
+    <header id="header" class="p-6 bg-black fixed-top">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">
+                <img src="img/fortune-logo.png" alt="" class="w-12 h-auto">
+            </div>
+            <nav class="hidden md:flex space-x-6 desktop-menu items-center">
+                <a href="Frame-66.html">Accueil</a>
+                <a href="Gallery.html">Partenaires</a>
+                <a href="Poste-blog.html">Boutique</a>
+                <div class="dropdown inline-block relative">
+                    <a href="#" class="flex items-center">Apprendre <i class="fas fa-chevron-down ml-1"
+                            style="margin-top: 4px;"></i></a>
+                    <div class="dropdown-content absolute bg-gray-800 text-white mt-2 rounded shadow-lg">
+                        <a href="Pricing.html" class="block px-4 py-2 hover:bg-gray-700">Cours</a>
+                        <a href="Réseautage.html" class="block px-4 py-2 hover:bg-gray-700">Webinaires</a>
+                        <a href="Ressources.html" class="block px-4 py-2 hover:bg-gray-700">Ressources</a>
+                        <a href="Support.html" class="block px-4 py-2 hover:bg-gray-700">Support</a>
+                        <a href="Testimonials.html" class="block px-4 py-2 hover:bg-gray-700">Témoignages</a>
+                    </div>
+                </div>
+                <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded">Bouton</button>
+                <button class="bg-yellow-500 text-black px-4 py-2 rounded">Bouton</button>
+            </nav>
+            <button id="burger-button" class="block md:hidden mobile-menu-button focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <nav id="mobile-nav" class="mobile-menu hidden md:hidden flex flex-col space-y-4 mt-4 px-6">
+            <a href="Frame-66.html">Accueil</a>
+            <a href="Gallery.html">Partenaires</a>
+            <a href="Poste-blog.html">Boutique</a>
+            <div class="dropdown inline-block relative">
+                <a href="#" class="flex items-center">Apprendre <i class="fas fa-chevron-down ml-1"
+                        style="margin-top: 4px;"></i></a>
+                <div class="dropdown-content bg-gray-800 text-white mt-2 rounded shadow-lg">
+                    <a href="Pricing.html" class="block px-4 py-2 hover:bg-gray-700">Cours</a>
+                    <a href="Réseautage.html" class="block px-4 py-2 hover:bg-gray-700">Webinaires</a>
+                    <a href="Ressources.html" class="block px-4 py-2 hover:bg-gray-700">Ressources</a>
+                    <a href="Support.html" class="block px-4 py-2 hover:bg-gray-700">Support</a>
+                    <a href="Testimonials.html" class="block px-4 py-2 hover:bg-gray-700">Témoignages</a>
+                </div>
+            </div>
+            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded">Bouton</button>
+            <button class="bg-yellow-500 text-black px-4 py-2 rounded">Bouton</button>
+        </nav>
+    </header>
+
+    <!-- Section Centre de soutien -->
+    <section class="bg-white p-6 py-20 text-black help-head">
+        <div class="container mx-auto">
+            <div class="mb-4">
+                <h4 class="text-lg font-semibold text-gray-400 mb-2">Obtenir de l'aide</h4>
+                <h1 class="text-4xl font-bold mb-4">Centre de soutien</h1>
+                <p class="mb-8">Nous sommes là pour vous aider avec toutes vos questions ou préoccupations.</p>
+                <div class="flex">
+                    <button class="bg-yellow-500 text-black px-6 py-2 rounded-lg mr-4">Contact</button>
+                    <button class="border border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg">FAQs</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="bg-black text-white p-6 py-20">
+        <div class="container mx-auto text-center mb-12">
+            <h4 class="text-lg font-semibold text-gray-400 mb-2">Efficace</h4>
+            <h1 class="text-4xl font-bold mb-4">Obtenez le soutien dont vous avez besoin aujourd'hui</h1>
+            <p class="mb-12">Chez Fortune, nous comprenons l'importance de fournir un support exceptionnel à nos
+                utilisateurs. Que vous ayez une question, besoin d'aide ou souhaitiez signaler un problème, notre équipe
+                d'assistance dédiée est là pour vous aider.</p>
+        </div>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <!-- Support Item 1 -->
+            <div class="text-center">
+                <div class="mb-4">
+                    <i class="fas fa-cube text-yellow-500 text-3xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Contactez-nous pour obtenir de l'aide</h3>
+                <p class="text-gray-400">Soumettez un ticket d'assistance ou contactez-nous via nos canaux de contact.
+                </p>
+            </div>
+            <!-- Support Item 2 -->
+            <div class="text-center">
+                <div class="mb-4">
+                    <i class="fas fa-cube text-yellow-500 text-3xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Temps de réponse rapide</h3>
+                <p class="text-gray-400">Notre équipe d'assistance s'efforce de fournir une assistance rapide et
+                    efficace.</p>
+            </div>
+            <!-- Support Item 3 -->
+            <div class="text-center">
+                <div class="mb-4">
+                    <i class="fas fa-cube text-yellow-500 text-3xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Personnel de soutien compétent</h3>
+                <p class="text-gray-400">Notre équipe est composée d'experts prêts à répondre à vos demandes.</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="bg-yellow-500 text-black px-6 py-2 rounded-lg mr-4">Soumettre</button>
+            <button class="text-width-500 px-6 py-2 rounded-lg">Contact <i class="fa fa-angle-right ml-2"
+                    aria-hidden="true"></i></button>
+        </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="p-6 py-20 bg-white text-black">
+        <div class="container mx-auto text-left">
+            <h2 class="text-5xl font-bold mb-12">FAQs</h2>
+            <p class="mb-12">Trouvez des réponses aux questions courantes pour vous aider à résoudre rapidement les
+                problèmes.</p>
+            <div class="grid grid-cols-1 gap-6">
+                <!-- FAQ Item -->
+                <div>
+                    <button aria-expanded="false"
+                        class="w-full text-left py-2 border-b border-gray-600 focus:outline-none accordion-button flex justify-between items-center">
+                        Comment puis-je m'inscrire ?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content hidden">
+                        <p class="mt-2">Vous pouvez vous inscrire en suivant les instructions sur notre page
+                            d'inscription.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div>
+                    <button aria-expanded="false"
+                        class="w-full text-left py-2 border-b border-gray-600 focus:outline-none accordion-button flex justify-between items-center">
+                        Comment puis-je contacter le service client ?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content hidden">
+                        <p class="mt-2">Vous pouvez contacter notre service client en utilisant le formulaire de contact
+                            disponible sur notre site.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div>
+                    <button aria-expanded="false"
+                        class="w-full text-left py-2 border-b border-gray-600 focus:outline-none accordion-button flex justify-between items-center">
+                        Puis-je annuler mon abonnement ?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content hidden">
+                        <p class="mt-2">Oui, vous pouvez annuler votre abonnement à tout moment depuis votre compte
+                            utilisateur.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div>
+                    <button aria-expanded="false"
+                        class="w-full text-left py-2 border-b border-gray-600 focus:outline-none accordion-button flex justify-between items-center">
+                        Comment accéder à mes cours achetés ?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content hidden">
+                        <p class="mt-2">Vous pouvez accéder à vos cours achetés en vous connectant à votre compte et en
+                            naviguant vers la section "Mes Cours".</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div>
+                    <button aria-expanded="false"
+                        class="w-full text-left py-2 border-b border-gray-600 focus:outline-none accordion-button flex justify-between items-center">
+                        Mes informations de paiement sont-elles sécurisées ?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content hidden">
+                        <p class="mt-2">Oui, nous utilisons des mesures de sécurité avancées pour protéger vos
+                            informations de paiement.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 text-left">
+                <h3 class="text-3xl font-bold">Vous avez encore des questions ?</h3>
+                <p class="mt-2">Contactez notre équipe d'assistance pour obtenir de l'aide supplémentaire.</p>
+                <button class="mt-4 border border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg">Contact</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="p-6 py-20 bg-black text-white">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+                <div class="text-left">
+                    <h3 class="text-lg font-bold">Contact</h3>
+                    <h2 class="text-4xl font-bold mb-4">Entrer en contact</h2>
+                    <p>Avez vous des questions ou besoin d'aide? Nous sommes là pour vous aider !</p>
+                </div>
+                <div class="flex flex-col space-y-6">
+                    <div>
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-envelope text-yellow-500 mr-2"></i>
+                            <h4 class="text-xl font-bold">Email</h4>
+                        </div>
+                        <p class="ml-8">support@fortune.com</p>
+                    </div>
+                    <div>
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-phone text-yellow-500 mr-2"></i>
+                            <h4 class="text-xl font-bold">Téléphone</h4>
+                        </div>
+                        <p class="ml-8">+1 (555) 123-4567</p>
+                    </div>
+                    <div>
+                        <div class="flex items-center mb-2">
+                            <i class="fas fa-map-marker-alt text-yellow-500 mr-2"></i>
+                            <h4 class="text-xl font-bold">Adresse</h4>
+                        </div>
+                        <p class="ml-8">123 Fortune St, San Francisco, CA 12345</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="img/placeholderimg.png" alt="Contact Image" class="w-full h-auto rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="p-6 py-20 bg-white text-black flex justify-center">
+        <div class="max-w-3xl w-full mr-auto">
+            <h3 class="text-sm font-bold mb-2 text-left">Obtenir de l'aide</h3>
+            <h2 class="text-4xl font-bold mb-4 text-left">Contactez le support</h2>
+            <p class="mb-8 text-left">Vous avez une question ou besoin d'aide ? Contactez notre équipe d’assistance.</p>
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="prenom" class="block text-sm font-medium text-gray-700">Prénom</label>
+                        <input type="text" id="prenom" name="prenom"
+                            class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                    </div>
+                    <div>
+                        <label for="nom" class="block text-sm font-medium text-gray-700">Nom de famille</label>
+                        <input type="text" id="nom" name="nom"
+                            class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                    </div>
+                    <div>
+                        <label for="telephone" class="block text-sm font-medium text-gray-700">Numéro de
+                            téléphone</label>
+                        <input type="tel" id="telephone" name="telephone"
+                            class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label for="sujet" class="block text-sm font-medium text-gray-700">Choisir un sujet</label>
+                    <select id="sujet" name="sujet"
+                        class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm">
+                        <option>Sélectionnez-en un...</option>
+                        <option>Sujet 1</option>
+                        <option>Sujet 2</option>
+                        <option>Sujet 3</option>
+                    </select>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend class="block text-sm font-medium text-gray-700 mb-2">Lequel vous décrit le mieux?
+                        </legend>
+                        <div class="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4">
+                            <div class="flex items-center">
+                                <input id="option1" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="option1" class="ml-3 block text-sm font-medium text-gray-700">Option
+                                    1</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="option2" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="option2" class="ml-3 block text-sm font-medium text-gray-700">Option
+                                    2</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="option3" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="option3" class="ml-3 block text-sm font-medium text-gray-700">Option
+                                    3</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="option4" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="option4" class="ml-3 block text-sm font-medium text-gray-700">Option
+                                    4</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="option5" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="option5" class="ml-3 block text-sm font-medium text-gray-700">Option
+                                    5</label>
+                            </div>
+                            <div class="flex items-center">
+                                <input id="option6" name="description" type="radio"
+                                    class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300">
+                                <label for="option6" class="ml-3 block text-sm font-medium text-gray-700">Other</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="8"
+                        class="mt-1 pt-3 block w-full px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
+                        placeholder="Tapez votre message ici..."></textarea>
+                </div>
+                <div class="flex items-center">
+                    <input id="conditions" name="conditions" type="checkbox"
+                        class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300 rounded">
+                    <label for="conditions-a" class="ml-2 block text-sm text-gray-900">J’accepte les conditions</label>
+                </div>
+                <div class="flex">
+                    <button type="submit" class="bg-yellow-500 text-black px-6 py-2 rounded-lg">Soumettre</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="p-6 py-20 bg-black text-white flex justify-start">
+        <div class="max-w-md w-full">
+            <h3 class="text-sm font-bold mb-2">Appliquer</h3>
+            <h2 class="text-4xl font-bold mb-4">Entrer en contact</h2>
+            <p class="mb-8">Remplissez le formulaire ci-dessous pour postuler à des programmes ou services d'assistance
+                spéciaux.</p>
+            <form class="space-y-6">
+                <div>
+                    <label for="nom" class="block text-sm font-medium">Nom</label>
+                    <input type="text" id="nom" name="nom"
+                        class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm text-black">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="mt-1 block w-full h-12 px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm text-black">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium">Message</label>
+                    <textarea id="message" name="message" rows="8"
+                        class="mt-1 pt-3 block w-full px-4 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm text-black"
+                        placeholder="Entrez votre message..."></textarea>
+                </div>
+                <div class="flex items-center">
+                    <input id="conditions" name="conditions" type="checkbox"
+                        class="focus:ring-yellow-500 h-4 w-4 text-yellow-500 border-gray-300 rounded">
+                    <label for="conditions-b" class="ml-2 block text-sm">J’accepte les conditions</label>
+                </div>
+                <div class="flex justify-start">
+                    <button type="submit" class="bg-yellow-500 text-black px-6 py-2 rounded-lg">Soumettre</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Support Team Section -->
+    <section class="p-6 py-20 bg-white text-black">
+        <div class="container mx-auto flex flex-col md:flex-row md:justify-between md:items-start">
+            <div class="w-full md:max-w-md">
+                <h3 class="text-sm font-bold mb-2">Rejoindre</h3>
+                <h2 class="text-4xl font-bold mb-4">Équipe de soutien</h2>
+                <p class="mb-8">Explorez les postes disponibles dans notre équipe d'assistance et rejoignez-nous pour
+                    faire la différence.</p>
+            </div>
+            <div class="w-full md:max-w-2xl">
+                <div class="mb-6">
+                    <button
+                        class="w-full text-left py-4 border-b border-gray-600 focus:outline-none accordion-button flex justify-between items-center">
+                        Département de l'emploi
+                        <i class="fas fa-chevron-up accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content block">
+                        <div class="border border-gray-300 rounded-lg p-4 mb-4">
+                            <h4 class="text-xl font-bold mb-2">Service client</h4>
+                            <p class="text-sm text-gray-600 mb-2">Télécommande</p>
+                            <p class="text-sm mb-4">Nous recherchons des personnes dévouées possédant d'excellentes
+                                compétences en communication pour rejoindre notre équipe de support client. En tant que
+                                membre de notre équipe, vous assisterez nos utilisateurs, résoudrez leurs problèmes et
+                                assurerez leur satisfaction.</p>
+                            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded-lg">Appliquer
+                                maintenant</button>
+                        </div>
+                        <div class="border border-gray-300 rounded-lg p-4 mb-4">
+                            <h4 class="text-xl font-bold mb-2">Titre d'emploi</h4>
+                            <p class="text-sm text-gray-600 mb-2">Soutien technique</p>
+                            <p class="text-sm mb-4">Rejoignez notre équipe d'assistance technique et aidez nos
+                                utilisateurs à résoudre les problèmes techniques, à fournir des solutions et à garantir
+                                une expérience fluide sur notre plateforme. Nous recherchons des personnes possédant une
+                                solide expérience technique et des compétences en résolution de problèmes.</p>
+                            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded-lg">Appliquer
+                                maintenant</button>
+                        </div>
+                        <div class="border border-gray-300 rounded-lg p-4 mb-4">
+                            <h4 class="text-xl font-bold mb-2">Titre d'emploi</h4>
+                            <p class="text-sm text-gray-600 mb-2">Soutien aux ventes</p>
+                            <p class="text-sm mb-4">Si vous êtes passionné par la vente et le service client, rejoignez
+                                notre équipe de support commercial. En tant que membre de notre équipe, vous assisterez
+                                nos représentants commerciaux, traiterez les demandes de renseignements et contribuerez
+                                à la croissance de notre entreprise.</p>
+                            <button class="border border-yellow-500 text-yellow-500 px-4 py-2 rounded-lg">Appliquer
+                                maintenant</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <button
+                        class="w-full text-left py-4 border-b border-gray-600 focus:outline-none accordion-button flex justify-between items-center">
+                        Département de l'emploi
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                </div>
+                <div class="mb-6">
+                    <button
+                        class="w-full text-left py-4 border-b border-gray-600 focus:outline-none accordion-button flex justify-between items-center">
+                        Département de l'emploi
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section de la newsletter -->
+    <section class="p-6 bg-black text-white py-12">
+        <div class="container mx-auto flex flex-col md:flex-row md:justify-between md:items-center">
+            <div class="mb-6 md:mb-0">
+                <h2 class="text-4xl font-bold mb-2">Abonnez-vous à notre newsletter</h2>
+                <p class="text-lg">Restez à jour avec nos derniers services et ressources d'assistance</p>
+            </div>
+            <div class="w-full md:w-auto">
+                <form class="flex flex-col md:flex-row items-center w-full md:w-auto">
+                    <input type="email" placeholder="Entrer l'adresse e-mail"
+                        class="px-4 py-2 rounded-lg text-black mb-4 md:mb-0 md:mr-4 w-full md:w-auto">
+                    <button type="submit" class="bg-yellow-500 text-black px-6 py-2 rounded-lg w-full md:w-auto">Adhérer
+                        maintenant</button>
+                </form>
+                <p class="text-center md:text-left w-full md:w-auto mt-4 md:mt-0">En vous inscrivant, vous acceptez nos
+                    <a href="#" class="text-yellow-500">conditions générales</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Clients satisfaits -->
+    <section class="p-6 py-20 bg-white text-black">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Clients satisfaits</h2>
+            <p class="text-lg mb-12">Lisez ce que nos clients disent de notre assistance</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Témoignage 1 -->
+                <div>
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-500 text-2xl">★★★★★</span>
+                    </div>
+                    <p class="mb-4">Notre équipe d'assistance s'est surpassée pour résoudre mon problème. Je suis
+                        extrêmement satisfait de leur aide.</p>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <img class="w-12 h-12 rounded-full mr-4" src="img/placeholderimg.png" alt="John Doe">
+                            <div>
+                                <p class="font-bold">John Doe</p>
+                                <p class="text-gray-500">PDG, société X</p>
+                            </div>
+                        </div>
+                        <div class="w-0.5 h-12 bg-gray-300 mx-4"></div>
+                        <img src="img/Webflow.png" alt="Webflow Logo" class="w-24 md:mr-20">
+                    </div>
+                </div>
+                <!-- Témoignage 2 -->
+                <div>
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-500 text-2xl">★★★★★</span>
+                    </div>
+                    <p class="mb-4">Je n'ai jamais bénéficié d'une assistance aussi rapide et utile. Merci pour votre
+                        service exceptionnel!</p>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center">
+                            <img class="w-12 h-12 rounded-full mr-4" src="img/placeholderimg.png" alt="Jane Smith">
+                            <div>
+                                <p class="font-bold">Jane Smith</p>
+                                <p class="text-gray-500">Responsable marketing, entreprise Y</p>
+                            </div>
+                        </div>
+                        <div class="w-0.5 h-12 bg-gray-300 mx-4"></div>
+                        <img src="img/Webflow.png" alt="Webflow Logo" class="w-24 md:mr-20">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Rencontrez notre équipe -->
+    <section class="p-6 py-20 bg-white text-black">
+        <div class="container mx-auto">
+            <h2 class="text-lg font-semibold text-gray-400 mb-2">Expérimenté</h2>
+            <h1 class="text-4xl font-bold mb-4">Rencontrez notre équipe</h1>
+            <p class="text-lg mb-12">Apprenez à connaître les personnes talentueuses derrière Fortune.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Team Member -->
+                <div class="text-left">
+                    <img class="w-24 h-24 rounded-full mb-4" src="img/placeholderimg.png" alt="Nom et prénom">
+                    <h3 class="font-bold text-lg">Nom et prénom</h3>
+                    <p class="text-gray-500 mb-4">Titre d'emploi</p>
+                    <p class="text-sm text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="flex space-x-2 text-yellow-500">
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <!-- Repeat similar blocks for other team members -->
+                <div class="text-left">
+                    <img class="w-24 h-24 rounded-full mb-4" src="img/placeholderimg.png" alt="Nom et prénom">
+                    <h3 class="font-bold text-lg">Nom et prénom</h3>
+                    <p class="text-gray-500 mb-4">Titre d'emploi</p>
+                    <p class="text-sm text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="flex space-x-2 text-yellow-500">
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <!-- Add more team members as needed -->
+                <div class="text-left">
+                    <img class="w-24 h-24 rounded-full mb-4" src="img/placeholderimg.png" alt="Nom et prénom">
+                    <h3 class="font-bold text-lg">Nom et prénom</h3>
+                    <p class="text-gray-500 mb-4">Titre d'emploi</p>
+                    <p class="text-sm text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="flex space-x-2 text-yellow-500">
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <img class="w-24 h-24 rounded-full mb-4" src="img/placeholderimg.png" alt="Nom et prénom">
+                    <h3 class="font-bold text-lg">Nom et prénom</h3>
+                    <p class="text-gray-500 mb-4">Titre d'emploi</p>
+                    <p class="text-sm text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="flex space-x-2 text-yellow-500">
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <img class="w-24 h-24 rounded-full mb-4" src="img/placeholderimg.png" alt="Nom et prénom">
+                    <h3 class="font-bold text-lg">Nom et prénom</h3>
+                    <p class="text-gray-500 mb-4">Titre d'emploi</p>
+                    <p class="text-sm text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="flex space-x-2 text-yellow-500">
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <img class="w-24 h-24 rounded-full mb-4" src="img/placeholderimg.png" alt="Nom et prénom">
+                    <h3 class="font-bold text-lg">Nom et prénom</h3>
+                    <p class="text-gray-500 mb-4">Titre d'emploi</p>
+                    <p class="text-sm text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="flex space-x-2 text-yellow-500">
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <img class="w-24 h-24 rounded-full mb-4" src="img/placeholderimg.png" alt="Nom et prénom">
+                    <h3 class="font-bold text-lg">Nom et prénom</h3>
+                    <p class="text-gray-500 mb-4">Titre d'emploi</p>
+                    <p class="text-sm text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="flex space-x-2 text-yellow-500">
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <img class="w-24 h-24 rounded-full mb-4" src="img/placeholderimg.png" alt="Nom et prénom">
+                    <h3 class="font-bold text-lg">Nom et prénom</h3>
+                    <p class="text-gray-500 mb-4">Titre d'emploi</p>
+                    <p class="text-sm text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.</p>
+                    <div class="flex space-x-2 text-yellow-500">
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-yellow-400 mx-2 hover:text-black"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-left mt-12">
+                <h3 class="text-3xl font-bold">Nous embauchons!</h3>
+                <p class="text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="border border-yellow-500 text-yellow-500 px-6 py-2 rounded-lg">Postes ouverts</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-6">
+                <div class="mb-6 md:mb-0">
+                    <h4 class="text-xl font-bold">Restez informé, abonnez-vous</h4>
+                    <p>Recevez les dernières mises à jour et offres exclusives</p>
+                </div>
+                <div class="newsletter-container mt-4 md:mt-0 md:ml-auto">
+                    <form>
+                        <input type="email" placeholder="Entrez votre Email"
+                            class="px-4 py-2 rounded-lg text-black mb-4 md:mb-0 md:mr-4 w-full md:w-auto">
+                        <button type="submit"
+                            class="bg-yellow-500 text-black px-6 py-2 rounded-lg w-full md:w-auto">Rejoindre</button>
+                    </form>
+                    <p class="newp text-center md:text-left w-full md:w-auto">En vous abonnant, vous acceptez notre <a
+                            href="#" class="text-yellow-500">politique de confidentialité</a>.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-6 mb-12">
+                <div>
+                    <h4 class="text-2xl font-bold mb-4">Logo</h4>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Première colonne</h4>
+                    <a href="#" class="block">À propos de nous</a>
+                    <a href="#" class="block">Contact Us</a>
+                    <a href="#" class="block">FAQs</a>
+                    <a href="#" class="block">Support</a>
+                    <a href="#" class="block">Termes</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne deux</h4>
+                    <a href="#" class="block">Boutique</a>
+                    <a href="#" class="block">Des produits</a>
+                    <a href="#" class="block">Catégories</a>
+                    <a href="#" class="block">Panier</a>
+                    <a href="#" class="block">Mon compte</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne trois</h4>
+                    <a href="#" class="block">Entraînement</a>
+                    <a href="#" class="block">Cours</a>
+                    <a href="#" class="block">Webinaires</a>
+                    <a href="#" class="block">Formateurs</a>
+                    <a href="#" class="block">Ressources</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne quatre</h4>
+                    <a href="#" class="block">Mentorat</a>
+                    <a href="#" class="block">Conseil</a>
+                    <a href="#" class="block">Programmes</a>
+                    <a href="#" class="block">Ressources</a>
+                    <a href="#" class="block">Réussites</a>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Colonne cinq</h4>
+                    <a href="#" class="block">Blog</a>
+                    <a href="#" class="block">Nouvelles</a>
+                    <a href="#" class="block">Mises à jour</a>
+                    <a href="#" class="block">Événements</a>
+                    <a href="#" class="block">Ateliers</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <div class="text-sm mb-4 md:mb-0">
+                    © 2024 Fortune. Tous droits réservés. <a href="#" class="footutls hover:underline">Politique de
+                        confidentialité</a> <a href="#" class="footutls hover:underline">Conditions d'utilisation</a> <a
+                        href="#" class="footutls hover:underline">Politique de cookies</a>
+                </div>
+                <div>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white mx-2"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
